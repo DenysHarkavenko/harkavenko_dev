@@ -1,11 +1,12 @@
 import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react'
 import bg_1 from '../../img/bg_1.png'
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
-    <Box bg='#121921' p='60px 16px 0'>
+    <Box bg='#121921'>
       <Flex
-        maxW='1000px'
+        maxW='1080px'
+        p='60px 40px 0'
         w='100%'
         m='0 auto'
         justify='space-between'
