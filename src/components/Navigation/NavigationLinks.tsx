@@ -8,7 +8,7 @@ export const HeaderLinks: React.FC = () => {
         About Me
       </Link>
       <Link
-        ml={'36px'}
+        ml={[null, null, '20px', '25px', '36px']}
         _hover={{
           textDecoration: 'none',
           color: '#1466B8',
@@ -16,10 +16,16 @@ export const HeaderLinks: React.FC = () => {
       >
         Development Experience
       </Link>
-      <Link ml={'36px'} _hover={{ textDecoration: 'none', color: '#1466B8' }}>
+      <Link
+        ml={[null, null, '20px', '25px', '36px']}
+        _hover={{ textDecoration: 'none', color: '#1466B8' }}
+      >
         My Skill Sets
       </Link>
-      <Link ml={'36px'} _hover={{ textDecoration: 'none', color: '#1466B8' }}>
+      <Link
+        ml={[null, null, '20px', '25px', '36px']}
+        _hover={{ textDecoration: 'none', color: '#1466B8' }}
+      >
         My Projects
       </Link>
     </Flex>
