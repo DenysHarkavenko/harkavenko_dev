@@ -1,5 +1,5 @@
 import {ChakraProvider} from "@chakra-ui/react";
-import {Header} from "./components/Header/Header.tsx";
+import {Header} from "./components/Header/Navigation.tsx";
 import theme from "./theme.ts";
 
 function App():JSX.Element {
