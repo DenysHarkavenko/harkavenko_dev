@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Flex, Link } from '@chakra-ui/react'
 
-export const HeaderLinks: React.FC = () => {
+export const NavigationLinks: React.FC = () => {
   return (
     <Flex align={'center'}>
       <Link _hover={{ textDecoration: 'none', color: '#1466B8' }}>

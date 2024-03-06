@@ -1,10 +1,10 @@
 import * as React from 'react'
 import { Heading, Flex, Hide, Show } from '@chakra-ui/react'
 import { LogoIcon } from '../../svg/LogoIcon.tsx'
-import { HeaderLinks } from './NavigationLinks.tsx'
+import { NavigationLinks } from './NavigationLinks.tsx'
 import BurgerMenu from './BurgerMenu.tsx'
 
-export const Header: React.FC = () => {
+export const Navigation: React.FC = () => {
   return (
     <Flex as='nav' minW='100%' bg='#121921' h='65px' w='100%'>
       <Flex
@@ -21,7 +21,7 @@ export const Header: React.FC = () => {
         </Flex>
 
         <Hide breakpoint='(max-width: 820px)'>
-          <HeaderLinks />
+          <NavigationLinks />
         </Hide>
         <Show breakpoint='(max-width: 820px)'>
           <BurgerMenu />
