@@ -39,5 +39,3 @@ export const Navigation: React.FC = () => {
     </Flex>
   )
 }
-
-// 820px

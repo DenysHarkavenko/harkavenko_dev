@@ -1,5 +1,5 @@
 import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react'
-import bg_1 from '../../img/bg_1.png'
+import bg_1 from '../../img/145119078.jpeg'
 
 const Header: React.FC = () => {
   return (

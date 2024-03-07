@@ -13,8 +13,10 @@ const skillsData = [
 
 const Skills: React.FC = () => {
   return (
-    <Box textAlign={['center', null, null, 'unset', 'unset']} p='60px 40px'>
-      <Heading>My Skill Sets</Heading>
+    <Box p='60px 40px'>
+      <Heading textAlign={['center', null, null, 'unset', 'unset']}>
+        My Skill Sets
+      </Heading>
       {skillsData.map((skillItem, index) => (
         <SkillProgressbar
           key={index}
