@@ -3,7 +3,7 @@ import Example from './Example'
 
 const DevelopmentExperience: React.FC = () => {
   return (
-    <Box>
+    <Box textAlign={['center', null, null, 'unset', 'unset']} p='60px 40px'>
       <Heading>Development Experience</Heading>
       <Example />
     </Box>
