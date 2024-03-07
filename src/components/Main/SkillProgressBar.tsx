@@ -7,8 +7,10 @@ type SkillProgressBarProps = {
 
 const SkillProgressbar: React.FC<SkillProgressBarProps> = ({ vl, skill }) => {
   return (
-    <Box mt='20px'>
-      <Text>{skill}</Text>
+    <Box mt='20px' p='0'>
+      <Text>
+        {skill} - <span style={{ color: '#94ADC7' }}>{vl}%</span>
+      </Text>
       <Progress
         value={vl}
         borderRadius='6px'
@@ -16,7 +18,6 @@ const SkillProgressbar: React.FC<SkillProgressBarProps> = ({ vl, skill }) => {
         bg='#334D66'
         m='12px 0'
       />
-      <Text color='#94ADC7'>{vl}%</Text>
     </Box>
   )
 }

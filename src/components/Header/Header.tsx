@@ -1,11 +1,11 @@
-import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react'
+import { Box, Button, Flex, Heading, Image, Link, Text } from '@chakra-ui/react'
 import bg_1 from '../../img/145119078.jpeg'
 
 const Header: React.FC = () => {
   return (
     <Box bg='#121921'>
       <Flex
-        maxW='1080px'
+        maxW='980px'
         p='60px 40px'
         w='100%'
         m='0 auto'
@@ -24,25 +24,38 @@ const Header: React.FC = () => {
           <Text mt='10px' fontSize={['20px']}>
             Full Stack Web Developer
           </Text>
-          <Box mt='32px'>
-            <Button
-              w='132.42px'
+          <Flex
+            mt='32px'
+            align='center'
+            justify={['center', null, null, 'unset', 'unset']}
+          >
+            <Link
+              href='../src/data/DenysHarkavenko_CV.pdf'
+              download
+              textAlign='center'
+              p='8px 0'
+              w='131px'
               bg='#1466B8'
               color='#fff'
+              borderRadius='12px'
               _hover={{ transform: 'scale(108%)' }}
             >
               Resume
-            </Button>
-            <Button
-              w='132.42px'
+            </Link>
+            <Link
+              href='mailto:harkavenkodev@gmail.com'
+              w='131px'
+              borderRadius='12px'
+              p='8px 0'
+              textAlign='center'
               bg='#243647'
               color='#fff'
               ml='12px'
               _hover={{ transform: 'scale(108%)' }}
             >
               Contact Me
-            </Button>
-          </Box>
+            </Link>
+          </Flex>
         </Box>
       </Flex>
     </Box>
