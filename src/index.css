@@ -18,3 +18,13 @@ body {
   margin: 0;
   background-color: #121921;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+  background-color: #121921;
+}
+
+/* ::-webkit-scrollbar-thumb {
+  background-color: #eee;
+}
+ */

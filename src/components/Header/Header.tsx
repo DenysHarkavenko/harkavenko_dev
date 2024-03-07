@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     <Box bg='#121921'>
       <Flex
         maxW='1080px'
-        p='60px 40px 0'
+        p='60px 40px'
         w='100%'
         m='0 auto'
         justify='space-between'

@@ -2,7 +2,7 @@ import { Box, Heading, Text } from '@chakra-ui/react'
 
 const AboutMe: React.FC = () => {
   return (
-    <Box textAlign={['center', null, null, 'unset', 'unset']}>
+    <Box textAlign={['center', null, null, 'unset', 'unset']} p='60px 40px'>
       <Heading>About me</Heading>
       <Text mt='20px'>
         Hi, I'm a Full-Stack developer. The main type of development is
