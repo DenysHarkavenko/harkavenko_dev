@@ -2,6 +2,7 @@ import { Box } from '@chakra-ui/react'
 import AboutMe from './AboutMe'
 import DevelopmentExperience from './DevelopmentExperience'
 import Skills from './Skills'
+import Technologies from './Technologies'
 
 const Main: React.FC = () => {
   return (
@@ -9,7 +10,8 @@ const Main: React.FC = () => {
       <Box maxW='1080px' w='100%' margin='0 auto'>
         <AboutMe />
         <DevelopmentExperience />
-        <Skills/>
+        <Skills />
+        <Technologies />
       </Box>
     </Box>
   )

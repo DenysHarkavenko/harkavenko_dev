@@ -1,0 +1,9 @@
+export const skillsData = [
+    { skill: 'HTML / CSS', level: 100 },
+    { skill: 'React', level: 80 },
+    { skill: 'TypeScript / JavaScript', level: 75 },
+    { skill: 'PostgreSQL', level: 73 },
+    { skill: 'Express', level: 69 },
+    { skill: 'Ruby', level: 64 },
+    { skill: 'Ruby on Rails', level: 58 },
+]
