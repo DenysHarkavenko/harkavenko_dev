@@ -6,7 +6,16 @@ import BurgerMenu from './BurgerMenu.tsx'
 
 export const Navigation: React.FC = () => {
   return (
-    <Flex as='nav' minW='100%' bg='#121921' h='65px' w='100%'>
+    <Flex
+      as='nav'
+      minW='100%'
+      bg='#121921'
+      h='65px'
+      w='100%'
+      position='sticky'
+      top='0'
+      zIndex='5'
+    >
       <Flex
         w='100%'
         justify='space-between'
