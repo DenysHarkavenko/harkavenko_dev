@@ -46,14 +46,14 @@ const BurgerMenu: React.FC = () => {
           <DrawerBody>
             <Flex direction='column'>
               <Link
-                href='#'
+                href='#About'
                 _hover={{ textDecoration: 'none', color: '#1466B8' }}
                 mt='15px'
               >
                 About Me
               </Link>
               <Link
-                href='#'
+                href='#Experience'
                 mt='15px'
                 _hover={{
                   textDecoration: 'none',
@@ -63,14 +63,14 @@ const BurgerMenu: React.FC = () => {
                 Development Experience
               </Link>
               <Link
-                href='#'
+                href='#Skills'
                 _hover={{ textDecoration: 'none', color: '#1466B8' }}
                 mt='15px'
               >
                 My Skill Sets
               </Link>
               <Link
-                href='#'
+                href='#Projects'
                 _hover={{ textDecoration: 'none', color: '#1466B8' }}
                 mt='15px'
               >
