@@ -1,5 +1,5 @@
 import { Box, Flex, Heading, Image, Link, Text } from '@chakra-ui/react'
-import bg_1 from '../../img/145119078.jpeg'
+import me from '../../img/me.jpeg'
 
 const Header: React.FC = () => {
   return (
@@ -13,7 +13,7 @@ const Header: React.FC = () => {
         align='center'
         direction={['column', 'column', null, 'row', 'row']}
       >
-        <Image src={bg_1} borderRadius='50px' />
+        <Image src={me} borderRadius='50px' />
         <Box textAlign={['center', null, null, 'unset', 'unset']}>
           <Heading
             fontSize={['38px', '40px', '45px', '48px']}

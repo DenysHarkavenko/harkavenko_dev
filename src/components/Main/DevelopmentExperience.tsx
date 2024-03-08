@@ -1,11 +1,15 @@
 import { Box, Heading } from '@chakra-ui/react'
-import Example from './ExperienceStepper'
+import ExperienceStepper from '../UI/ExperienceStepper'
 
 const DevelopmentExperience: React.FC = () => {
   return (
-    <Box textAlign={['center', null, null, 'unset', 'unset']} p='60px 40px'>
+    <Box
+      textAlign={['center', null, null, 'unset', 'unset']}
+      p='60px 40px'
+      id='Experience'
+    >
       <Heading>Development Experience</Heading>
-      <Example />
+      <ExperienceStepper />
     </Box>
   )
 }
