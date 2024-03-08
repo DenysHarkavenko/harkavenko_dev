@@ -3,6 +3,7 @@ import AboutMe from './Sections/AboutMe'
 import DevelopmentExperience from './Sections/DevelopmentExperience'
 import Skills from './Sections/Skills'
 import Projects from './Sections/Projects'
+import LifeStory from './Sections/LifeStory'
 
 const Main: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const Main: React.FC = () => {
         <DevelopmentExperience />
         <Skills />
         <Projects />
+        <LifeStory />
       </Box>
     </Box>
   )

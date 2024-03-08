@@ -1,4 +1,4 @@
-import { Flex, Heading, Button, Hide, Box, Text, Image } from '@chakra-ui/react'
+import { Flex, Heading, Hide, Box, Text, Image, Link } from '@chakra-ui/react'
 import asd from '../../../img/pr_1.png'
 
 type ProjectItemProps = {
@@ -6,6 +6,7 @@ type ProjectItemProps = {
   description: string
   year: string
   stack: string
+  link: string
 }
 
 const ProjectItem: React.FC<ProjectItemProps> = ({
@@ -13,6 +14,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
   description,
   year,
   stack,
+  link,
 }) => {
   return (
     <Flex
@@ -32,21 +34,27 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
         >
           {title}
         </Heading>
-        <Text color='#94ADC7' mt='5px'>
+        <Text color='#94ADC7' mt='5px' mb='20px'>
           {description}
           <br />
           <br />
           <span style={{ fontWeight: 'Bold' }}>{stack}</span>
         </Text>
-        <Button
+        <Link
           borderRadius='12px'
-          h='32px'
+          p='8px 20px'
+          textAlign='center'
           bg='#243647'
           color='#fff'
-          mt='16px'
+          fontWeight='bold'
+          href={link}
+          _hover={{
+            transform: 'scale(108%)',
+            background: '#1466B8',
+          }}
         >
-          View Project
-        </Button>
+          Contact Me
+        </Link>
       </Box>
       <Hide breakpoint='(max-width: 990px)'>
         <Image src={asd} maxW='300px' maxH='200px' borderRadius='12px' />

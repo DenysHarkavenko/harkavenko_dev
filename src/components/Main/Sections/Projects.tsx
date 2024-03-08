@@ -15,6 +15,7 @@ const Projects: React.FC = () => {
           description={project.description}
           stack={project.stack}
           year={project.year}
+          link={project.link}
         />
       ))}
       <Flex justify='space-between' flexWrap='wrap'></Flex>
