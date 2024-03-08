@@ -1,8 +1,8 @@
 import { Box } from '@chakra-ui/react'
-import AboutMe from './AboutMe'
-import DevelopmentExperience from './DevelopmentExperience'
-import Skills from './Skills'
-import Projects from './Projects'
+import AboutMe from './Sections/AboutMe'
+import DevelopmentExperience from './Sections/DevelopmentExperience'
+import Skills from './Sections/Skills'
+import Projects from './Sections/Projects'
 
 const Main: React.FC = () => {
   return (

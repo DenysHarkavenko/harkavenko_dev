@@ -1,7 +1,7 @@
 import { Box, Heading, Flex } from '@chakra-ui/react'
 import SkillProgressbar from '../UI/SkillProgressBar'
-import { languages, skillsData } from '../../data/skills'
-import { techologies } from '../../data/skills'
+import { languages, skillsData } from '../../../data/skills'
+import { techologies } from '../../../data/skills'
 import CustomBadge from '../UI/CustomBadge'
 
 const Skills: React.FC = () => {
@@ -29,7 +29,9 @@ const Skills: React.FC = () => {
       ))}
       <br />
       {languages.map((language, index) => (
-        <CustomBadge key={index} bg='blue'>{language}</CustomBadge>
+        <CustomBadge key={index} bg='blue'>
+          {language}
+        </CustomBadge>
       ))}
     </Box>
   )
