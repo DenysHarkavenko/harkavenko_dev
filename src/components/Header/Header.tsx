@@ -1,9 +1,9 @@
-import { Box, Button, Flex, Heading, Image, Link, Text } from '@chakra-ui/react'
+import { Box, Flex, Heading, Image, Link, Text } from '@chakra-ui/react'
 import bg_1 from '../../img/145119078.jpeg'
 
 const Header: React.FC = () => {
   return (
-    <Box bg='#121921'>
+    <Box bg='#121921' as='header'>
       <Flex
         maxW='980px'
         p='60px 40px'

@@ -2,6 +2,7 @@ import { Box } from '@chakra-ui/react'
 import AboutMe from './AboutMe'
 import DevelopmentExperience from './DevelopmentExperience'
 import Skills from './Skills'
+import Projects from './Projects'
 
 const Main: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const Main: React.FC = () => {
         <AboutMe />
         <DevelopmentExperience />
         <Skills />
+        <Projects />
       </Box>
     </Box>
   )

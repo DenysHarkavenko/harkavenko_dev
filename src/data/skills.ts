@@ -9,4 +9,4 @@ export const skillsData = [
     { skill: 'Node', level: 42 },
 ]
 
-export const techologies = ['Vite', 'yarn', 'Figma', 'RSpec', 'C#', 'IndexedDB', 'MongoDB', 'Nest', 'C++', 'Git', 'Tailwind', 'Svelte', 'Bootstrap', 'Python', 'WordPress', 'Jira', 'DRY', 'SOLID', 'BEM']
+export const techologies = ['Vite', 'yarn', 'Figma', 'RSpec', 'C#', 'SOLID', 'IndexedDB', 'MongoDB', 'Nest', 'C++', 'Git', 'Tailwind', 'Svelte', 'Bootstrap', 'BEM', 'Python', 'WordPress', 'Jira', 'DRY', 'Miro', 'npm', 'FactoryBot', 'Vue']
