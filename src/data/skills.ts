@@ -10,3 +10,6 @@ export const skillsData = [
 ]
 
 export const techologies = ['Vite', 'yarn', 'Figma', 'RSpec', 'C#', 'SOLID', 'IndexedDB', 'MongoDB', 'Nest', 'C++', 'Git', 'Tailwind', 'Svelte', 'Bootstrap', 'BEM', 'Python', 'WordPress', 'Jira', 'DRY', 'Miro', 'npm', 'FactoryBot', 'Vue']
+
+
+export const languages = ['English (B2)', 'Ukrainian (native)', 'Russian (native)', 'Czech (A1)']

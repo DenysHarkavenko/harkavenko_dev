@@ -1,6 +1,6 @@
 import { Box, Heading, Flex } from '@chakra-ui/react'
 import SkillProgressbar from './SkillProgressBar'
-import { skillsData } from '../../data/skills'
+import { languages, skillsData } from '../../data/skills'
 import { techologies } from '../../data/skills'
 import CustomBadge from '../UI/CustomBadge'
 
@@ -26,6 +26,10 @@ const Skills: React.FC = () => {
       </Flex>
       {techologies.map((technology) => (
         <CustomBadge>{technology}</CustomBadge>
+      ))}
+      <br />
+      {languages.map((technology) => (
+        <CustomBadge bg='blue'>{technology}</CustomBadge>
       ))}
     </Box>
   )

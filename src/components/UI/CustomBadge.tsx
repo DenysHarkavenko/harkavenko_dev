@@ -3,14 +3,18 @@ import { ReactNode } from 'react'
 
 type CustomBadgeProps = {
   children: ReactNode
+  bg?: string
 }
 
-const CustomBadge: React.FC<CustomBadgeProps> = ({ children }) => {
+const CustomBadge: React.FC<CustomBadgeProps> = ({
+  children,
+  bg = '#243647',
+}) => {
   return (
     <Badge
       p='6px 16px'
       borderRadius='12px'
-      bg='#243647'
+      bg={bg}
       color='#fff'
       textTransform='none'
       m='12px 12px 0  0'
