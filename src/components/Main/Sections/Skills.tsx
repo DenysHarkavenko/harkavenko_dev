@@ -1,5 +1,5 @@
 import { Box, Heading, Flex } from '@chakra-ui/react'
-import SkillProgressbar from '../../UI/SkillProgressBar'
+import SkillProgressbar from '../UI/SkillProgressBar'
 import { languages, skillsData } from '../../../data/skills'
 import { techologies } from '../../../data/skills'
 import CustomBadge from '../UI/CustomBadge'
