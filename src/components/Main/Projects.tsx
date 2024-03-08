@@ -3,7 +3,7 @@ import asd from '../../img/pr_1.png'
 
 const Projects: React.FC = () => {
   return (
-    <Box as='section' p='60px 40px'>
+    <Box as='section' p='60px 40px' id='Projects'>
       <Heading textAlign={['center', null, null, 'unset', 'unset']}>
         My Projects
       </Heading>

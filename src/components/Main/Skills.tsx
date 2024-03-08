@@ -6,7 +6,7 @@ import CustomBadge from '../UI/CustomBadge'
 
 const Skills: React.FC = () => {
   return (
-    <Box p='60px 40px'>
+    <Box p='60px 40px' id='Skills'>
       <Heading textAlign={['center', null, null, 'unset', 'unset']}>
         My Skill Sets
       </Heading>
@@ -24,12 +24,12 @@ const Skills: React.FC = () => {
           </Box>
         ))}
       </Flex>
-      {techologies.map((technology) => (
-        <CustomBadge>{technology}</CustomBadge>
+      {techologies.map((technology, index) => (
+        <CustomBadge key={index}>{technology}</CustomBadge>
       ))}
       <br />
-      {languages.map((technology) => (
-        <CustomBadge bg='blue'>{technology}</CustomBadge>
+      {languages.map((language, index) => (
+        <CustomBadge key={index} bg='blue'>{language}</CustomBadge>
       ))}
     </Box>
   )

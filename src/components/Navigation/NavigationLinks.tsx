@@ -3,35 +3,31 @@ import { Flex, Link } from '@chakra-ui/react'
 
 export const NavigationLinks: React.FC = () => {
   return (
-    <Flex direction='column'>
-      <Link
-        _hover={{ textDecoration: 'none', color: '#1466B8' }}
-        href='#About'
-        mt='15px'
-      >
+    <Flex align={'center'}>
+      <Link _hover={{ textDecoration: 'none', color: '#1466B8' }} href='#About'>
         About Me
       </Link>
       <Link
         href='#Experience'
+        ml={[null, null, '20px', '25px', '36px']}
         _hover={{
           textDecoration: 'none',
           color: '#1466B8',
         }}
-        mt='15px'
       >
         Development Experience
       </Link>
       <Link
+        ml={[null, null, '20px', '25px', '36px']}
         _hover={{ textDecoration: 'none', color: '#1466B8' }}
-        href='#SkillSets'
-        mt='15px'
+        href='#Skills'
       >
         My Skill Sets
       </Link>
       <Link
+        ml={[null, null, '20px', '25px', '36px']}
         _hover={{ textDecoration: 'none', color: '#1466B8' }}
         href='#Projects'
-        mt='15px'
       >
         My Projects
       </Link>
