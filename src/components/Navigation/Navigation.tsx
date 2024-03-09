@@ -29,10 +29,10 @@ export const Navigation: React.FC = () => {
           </Heading>
         </Flex>
 
-        <Hide breakpoint='(max-width: 820px)'>
+        <Hide breakpoint='(max-width: 990px)'>
           <NavigationLinks />
         </Hide>
-        <Show breakpoint='(max-width: 820px)'>
+        <Show breakpoint='(max-width: 990px)'>
           <BurgerMenu />
         </Show>
       </Flex>

@@ -31,11 +31,7 @@ const BurgerMenu: React.FC = () => {
         cursor='pointer'
         mr={2}
       />
-      <Drawer
-        isOpen={isOpen}
-        placement='right'
-        onClose={onClose}
-      >
+      <Drawer isOpen={isOpen} placement='right' onClose={onClose}>
         <DrawerOverlay />
         <DrawerContent bg='#121921'>
           <DrawerCloseButton color='#fff' />
@@ -75,6 +71,13 @@ const BurgerMenu: React.FC = () => {
                 mt='15px'
               >
                 My Projects
+              </Link>
+              <Link
+                href='#LifeStory'
+                _hover={{ textDecoration: 'none', color: '#1466B8' }}
+                mt='15px'
+              >
+                Life Story
               </Link>
             </Flex>
           </DrawerBody>

@@ -31,6 +31,13 @@ export const NavigationLinks: React.FC = () => {
       >
         My Projects
       </Link>
+      <Link
+        ml={[null, null, '20px', '25px', '36px']}
+        _hover={{ textDecoration: 'none', color: '#1466B8' }}
+        href='#LifeStory'
+      >
+        Life Story
+      </Link>
     </Flex>
   )
 }

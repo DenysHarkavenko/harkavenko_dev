@@ -14,7 +14,7 @@ const LifeStory: React.FC = () => {
     <Box
       textAlign={['center', null, null, 'unset', 'unset']}
       p='60px 40px'
-      id='About'
+      id='LifeStory'
     >
       <Heading>My Life Story</Heading>
       <Text mt='20px' maxH={expanded ? 'none' : '500px'} overflow='hidden'>
