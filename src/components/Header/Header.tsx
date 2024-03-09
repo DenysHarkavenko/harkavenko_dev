@@ -1,5 +1,6 @@
 import { Box, Flex, Heading, Image, Link, Text } from '@chakra-ui/react'
 import me from '../../img/me.jpeg'
+import ContactsModal from './UI/ContactsModal'
 
 const Header: React.FC = () => {
   return (
@@ -42,19 +43,8 @@ const Header: React.FC = () => {
             >
               Resume
             </Link>
-            <Link
-              href='mailto:harkavenkodev@gmail.com'
-              w='131px'
-              borderRadius='12px'
-              p='8px 0'
-              textAlign='center'
-              bg='#243647'
-              color='#fff'
-              ml='12px'
-              _hover={{ transform: 'scale(108%)' }}
-            >
-              Contact Me
-            </Link>
+            
+            <ContactsModal />
           </Flex>
         </Box>
       </Flex>

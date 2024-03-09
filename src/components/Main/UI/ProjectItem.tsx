@@ -53,7 +53,7 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
             background: '#1466B8',
           }}
         >
-          Contact Me
+          Go to project
         </Link>
       </Box>
       <Hide breakpoint='(max-width: 990px)'>
