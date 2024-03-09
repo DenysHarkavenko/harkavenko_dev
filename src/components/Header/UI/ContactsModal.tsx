@@ -33,19 +33,35 @@ const ContactsModal: React.FC = () => {
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent bg='#121921' borderRadius='12px' m='60px 10px'>
-          <ModalHeader color='#fff'>Contact me</ModalHeader>
+          <ModalHeader color='#fff' fontWeight='bold'>
+            Contact me
+          </ModalHeader>
           <ModalCloseButton color='#fff' />
           <ModalBody color='#fff'>
             <Flex direction='column'>
-              <Link fontWeight='bold'>Telegram</Link>
-              <Link fontWeight='bold' mt='5px'>
+              <Link fontWeight='bold' href='https://t.me/de0nn1s'>
+                Telegram
+              </Link>
+              <Link
+                fontWeight='bold'
+                mt='10px'
+                href='https://github.com/DenysHarkavenko'
+              >
                 GitHub
               </Link>
-              <Link fontWeight='bold' mt='5px'>
+              <Link
+                fontWeight='bold'
+                mt='10px'
+                href='https://www.linkedin.com/in/denys-harkavenko-52234a251/'
+              >
                 LinkedIn
               </Link>
-              <Link fontWeight='bold' mt='5px'>
-                Post
+              <Link
+                fontWeight='bold'
+                mt='10px'
+                href='mailto: harkavenkodev@gmail.com'
+              >
+                harkavenkodev@gmail.com
               </Link>
             </Flex>
           </ModalBody>

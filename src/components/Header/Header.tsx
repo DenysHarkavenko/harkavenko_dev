@@ -40,6 +40,7 @@ const Header: React.FC = () => {
               color='#fff'
               borderRadius='12px'
               _hover={{ transform: 'scale(108%)' }}
+              fontWeight='bold'
             >
               Resume
             </Link>
