@@ -41,7 +41,7 @@ const ExperienceStepper: React.FC = () => {
             <StepDescription fontSize='16px' color='#fff' fontWeight='medium'>
               {step.company}
             </StepDescription>
-            <StepDescription fontSize='16px'>
+            <StepDescription fontSize='16px' as='div'>
               {step.description}
             </StepDescription>
             <StepDescription color='#94ADC7' fontSize='14px'>

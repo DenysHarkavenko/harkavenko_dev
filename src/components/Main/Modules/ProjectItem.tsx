@@ -1,20 +1,21 @@
 import { Flex, Heading, Hide, Box, Text, Image, Link } from '@chakra-ui/react'
-import asd from '../../../img/pr_1.png'
 
 type ProjectItemProps = {
   title: string
   description: string
-  year: string
+  // year: string
   stack: string
   link: string
+  img: string
 }
 
 const ProjectItem: React.FC<ProjectItemProps> = ({
   title,
   description,
-  year,
+  // year,
   stack,
   link,
+  img,
 }) => {
   return (
     <Flex
@@ -52,12 +53,13 @@ const ProjectItem: React.FC<ProjectItemProps> = ({
             transform: 'scale(108%)',
             background: '#1466B8',
           }}
+          target='_blank'
         >
           Go to project
         </Link>
       </Box>
       <Hide breakpoint='(max-width: 990px)'>
-        <Image src={asd} maxW='300px' maxH='200px' borderRadius='12px' />
+        <Image src={img} maxW='250px' maxH='200px' borderRadius='12px' />
       </Hide>
     </Flex>
   )
