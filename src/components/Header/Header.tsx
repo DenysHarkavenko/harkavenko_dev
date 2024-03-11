@@ -1,6 +1,6 @@
 import { Box, Flex, Heading, Image, Link, Text } from '@chakra-ui/react'
 import me from '../../img/me.jpeg'
-import ContactsModal from './UI/ContactsModal'
+import ContactsModal from './Modules/ContactsModal'
 
 const Header: React.FC = () => {
   return (
