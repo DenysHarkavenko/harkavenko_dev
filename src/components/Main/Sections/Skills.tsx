@@ -1,8 +1,8 @@
 import { Box, Heading, Flex } from '@chakra-ui/react'
-import SkillProgressbar from '../UI/SkillProgressBar'
+import SkillProgressbar from '../Modules/SkillProgressBar'
 import { languages, skillsData } from '../../../data/skills'
 import { techologies } from '../../../data/skills'
-import CustomBadge from '../UI/CustomBadge'
+import CustomBadge from '../Modules/CustomBadge'
 
 const Skills: React.FC = () => {
   return (

@@ -1,5 +1,5 @@
 import { Box, Heading } from '@chakra-ui/react'
-import ExperienceStepper from '../UI/ExperienceStepper'
+import ExperienceStepper from '../Modules/ExperienceStepper'
 
 const DevelopmentExperience: React.FC = () => {
   return (

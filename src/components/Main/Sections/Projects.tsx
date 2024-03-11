@@ -1,6 +1,6 @@
 import { Box, Heading, Flex } from '@chakra-ui/react'
 import { projectItems } from '../../../data/projectsItems'
-import ProjectItem from '../UI/ProjectItem'
+import ProjectItem from '../Modules/ProjectItem'
 
 const Projects: React.FC = () => {
   return (

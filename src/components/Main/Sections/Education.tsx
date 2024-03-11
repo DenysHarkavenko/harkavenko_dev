@@ -9,6 +9,8 @@ const Education: React.FC = () => {
         _hover={{
           textDecoration: 'none',
         }}
+        href='https://duikt.edu.ua/'
+        target='_blank'
       >
         <Flex
           bg='#1A2633'
