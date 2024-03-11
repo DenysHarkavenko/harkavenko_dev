@@ -23,11 +23,10 @@ const LifeStory: React.FC = () => {
         will be a lot of text 😁
         <br />
         <br />
-        So, who am I? My name is Denys Harkavenko. I was
-        born on September 16, 2005, in Svatove, Luhansk region. Currently, my
-        city is occupied by Russia as a result of the Russian-Ukrainian war, so
-        in the summer of 2023 I temporarily moved to the Czech Republic, Česká
-        Lypa.
+        So, who am I? My name is Denys Harkavenko. I was born on September 16,
+        2005, in Svatove, Luhansk region. Currently, my city is occupied by
+        Russia as a result of the Russian-Ukrainian war, so in the summer of
+        2023 I temporarily moved to the Czech Republic, Česká Lypa.
         <br />
         <br />
         From 2011 to 2022, I studied at Svatove Lyceum No. 8 and graduated with

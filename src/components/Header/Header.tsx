@@ -18,7 +18,7 @@ const Header: React.FC = () => {
         <Box textAlign={['center', null, null, 'unset', 'unset']}>
           <Heading
             fontSize={['38px', '40px', '45px', '48px']}
-            mt={['15px', null, null, 'unset', 'unset']}
+            mt={['20px', null, null, 'unset', 'unset']}
           >
             Denys Harkavenko
           </Heading>
@@ -44,7 +44,7 @@ const Header: React.FC = () => {
             >
               Resume
             </Link>
-            
+
             <ContactsModal />
           </Flex>
         </Box>
