@@ -38,10 +38,21 @@ steps.forEach((step) => {
   const startDate = step.startDate
   const diffTime = Math.abs(currentDate.getTime() - startDate.getTime())
   const diffMonths = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 30))
-  step.time = `${startDate.toLocaleString('en-US', {
-    month: 'long',
-    year: 'numeric',
-  })} - Present (${diffMonths} months)`
+
+  if (currentDate.getTime() === new Date().getTime()) {
+    step.time = `${startDate.toLocaleString('en-US', {
+      month: 'long',
+      year: 'numeric',
+    })} - Present (${diffMonths} months)`
+  } else {
+    step.time = `${startDate.toLocaleString('en-US', {
+      month: 'long',
+      year: 'numeric',
+    })} - ${currentDate.toLocaleString('en-US', {
+      month: 'long',
+      year: 'numeric',
+    })} (${diffMonths} months)`
+  }
 })
 
 export default steps

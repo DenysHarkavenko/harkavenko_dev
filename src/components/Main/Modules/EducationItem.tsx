@@ -20,6 +20,7 @@ const EducationItem: React.FC<Education> = ({
           mt='15px'
           bg='#1A2633'
           maxW='450px'
+          minH='133px'
           direction={['column', 'row', 'row', 'row', 'row']}
           borderRadius='12px'
           p='15px 10px'
