@@ -3,5 +3,6 @@ type Education = {
     description: string
     img: string
     time: string
+    link: string
 }
 

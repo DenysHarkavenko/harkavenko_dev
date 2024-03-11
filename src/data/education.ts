@@ -1,10 +1,11 @@
-import duikt from '../../../img/duikt.png'
+import duikt from '../img/duikt.png'
 
 export const education: Education[] = [
     {
         title: 'Software Engineer',
         description: 'State University of information and communication technologies',
-        img: duikt ,
-        time: 'September 2022 - Present'
+        img: duikt,
+        time: 'September 2022 - Present',
+        link: 'https://duikt.edu.ua/'
     }
 ]
