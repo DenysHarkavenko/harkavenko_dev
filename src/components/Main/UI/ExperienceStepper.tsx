@@ -10,19 +10,7 @@ import {
   Stepper,
   useSteps,
 } from '@chakra-ui/react'
-
-const steps = [
-  {
-    title: 'Front-End developer',
-    company: 'Freelance',
-    time: '2022-2023',
-  },
-  {
-    title: 'Full-Stack developer',
-    company: 'StudInfo',
-    time: '2023-Present',
-  },
-]
+import { steps } from '../../../data/experience'
 
 const ExperienceStepper: React.FC = () => {
   const { activeStep } = useSteps({
@@ -34,7 +22,7 @@ const ExperienceStepper: React.FC = () => {
     <Stepper
       index={activeStep}
       orientation='vertical'
-      height='150px'
+      height='390px'
       gap='0'
       colorScheme='gray'
       size='sm'
@@ -47,11 +35,18 @@ const ExperienceStepper: React.FC = () => {
           </StepIndicator>
 
           <Box flexShrink='0'>
-            <StepTitle color='#fff' fontWeight='bold' fontSize='16px'>
+            <StepTitle color='#fff' fontWeight='bold' fontSize='20px'>
               {step.title}
             </StepTitle>
-            <StepDescription fontSize='14px'>{step.company}</StepDescription>
-            <StepDescription color='#94ADC7'>{step.time}</StepDescription>
+            <StepDescription fontSize='16px' color='#fff' fontWeight='medium'>
+              {step.company}
+            </StepDescription>
+            <StepDescription fontSize='16px'>
+              {step.description}
+            </StepDescription>
+            <StepDescription color='#94ADC7' fontSize='14px'>
+              {step.time}
+            </StepDescription>
           </Box>
 
           <StepSeparator />
