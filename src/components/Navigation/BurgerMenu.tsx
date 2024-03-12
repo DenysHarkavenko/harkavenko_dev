@@ -59,6 +59,16 @@ const BurgerMenu: React.FC = () => {
                 Development Experience
               </Link>
               <Link
+                href='#Education'
+                mt='15px'
+                _hover={{
+                  textDecoration: 'none',
+                  color: '#1466B8',
+                }}
+              >
+                Education
+              </Link>
+              <Link
                 href='#Skills'
                 _hover={{ textDecoration: 'none', color: '#1466B8' }}
                 mt='15px'

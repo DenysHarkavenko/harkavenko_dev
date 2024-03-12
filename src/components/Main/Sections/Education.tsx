@@ -4,7 +4,7 @@ import EducationItem from '../Modules/EducationItem'
 
 const Education: React.FC = () => {
   return (
-    <Box p='60px 40px' textAlign={['center', null, 'unset', null, null]}>
+    <Box p='60px 40px' textAlign={['center', null, 'unset', null, null]} id='Education'>
       <Heading>Education</Heading>
       {education.map((item, index) => (
         <EducationItem key={index} {...item} />
