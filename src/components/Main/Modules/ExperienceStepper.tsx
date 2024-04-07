@@ -10,6 +10,7 @@ import {
 	StepTitle,
 	Stepper,
 	useSteps,
+	Flex,
 } from '@chakra-ui/react'
 import { steps } from '../../../data/experience'
 
@@ -23,8 +24,8 @@ const ExperienceStepper: React.FC = () => {
 		<Stepper
 			index={activeStep}
 			orientation='vertical'
-			height='390px'
-			gap='0'
+			// height='600px'
+			gap='10px'
 			colorScheme='gray'
 			size='sm'
 			mt='20px'
@@ -46,12 +47,36 @@ const ExperienceStepper: React.FC = () => {
 							</Text>
 						</StepDescription>
 						<StepDescription>
-							<Text fontSize='16px' as='div'>
+							<Flex w='100%' overflowWrap='break-word'>
+								<Text
+									fontSize='16px'
+									color='#fff'
+									fontWeight='medium'
+									mt='5px'
+									h='auto'
+									// maxW='400px'
+									minW='200px'
+									w='fit-content' // Встановлюємо ширину контейнера на 100%
+									overflowWrap='break-word' // Встановлюємо параметр для перенесення тексту
+									whiteSpace='pre-line'
+								>
+									{step.whatIDo}
+								</Text>
+							</Flex>
+						</StepDescription>
+						<StepDescription>
+							<Text
+								fontSize='16px'
+								as='div'
+								color='#94ADC7'
+								fontWeight='bold'
+								mt='5px'
+							>
 								{step.description}
 							</Text>
 						</StepDescription>
 						<StepDescription>
-							<Text color='#94ADC7' fontSize='14px'>
+							<Text color='#94ADC7' fontSize='14px' mt='5px'>
 								{step.time}
 							</Text>
 						</StepDescription>
