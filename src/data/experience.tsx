@@ -4,7 +4,6 @@ export const steps: Step[] = [
 	{
 		title: 'WordPress developer',
 		company: 'MEGA-OLIMP-COMPANY',
-    whatIDo: 'I did my university internship at MEGA-OLIMP-COMPANY, where my team and I developed a website to introduce the units of the Armed Forces of Ukraine.',
 		description: (
 			<UnorderedList styleType='none'>
 				<ListItem>- HTML + CSS</ListItem>
@@ -19,11 +18,10 @@ export const steps: Step[] = [
 	{
 		title: 'Full-Stack developer',
 		company: 'StudInfo',
-    whatIDo: 'A startup where I play the role of FullStack developer. During my work, I worked with the following: creating user-friendly user interfaces using modern technologies, parsing information, working with databases, creating user authorization logic, working with REST APIs, and a bunch of other things! The job gave me a lot of experience in using many modern technologies and introduced me to teamwork and CRM.',
 		description: (
 			<UnorderedList styleType='none'>
 				<ListItem>- Ruby / Ruby on Rails</ListItem>
-				<ListItem>- RSpec / FactoryBot / Devise</ListItem>
+				<ListItem>- RSpec | FactoryBot | Devise</ListItem>
 				<ListItem>- TypeScript</ListItem>
 				<ListItem>- React + RTK</ListItem>
 				<ListItem>- ChakraUI</ListItem>
@@ -31,6 +29,23 @@ export const steps: Step[] = [
 		),
 		startDate: new Date('2023-12'),
 		endDate: new Date(),
+		link: 'https://studinfo.org/',
+	},
+	{
+		title: 'Front-End developer',
+		company: 'Team Challenge',
+		description: (
+			<UnorderedList styleType='none'>
+				<ListItem>- TypeScript</ListItem>
+				<ListItem>- React</ListItem>
+				<ListItem>- Redux + RTK Query</ListItem>
+				<ListItem>- Storybook | Formik</ListItem>
+				<ListItem>- ChakraUI</ListItem>
+			</UnorderedList>
+		),
+		startDate: new Date('2024-03'),
+		endDate: new Date(),
+		link: 'https://www.linkedin.com/company/team-challenge-io/?originalSubdomain=ua',
 	},
 ]
 

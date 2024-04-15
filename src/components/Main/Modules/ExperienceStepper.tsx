@@ -10,13 +10,13 @@ import {
 	StepTitle,
 	Stepper,
 	useSteps,
-	Flex,
+	Link,
 } from '@chakra-ui/react'
 import { steps } from '../../../data/experience'
 
 const ExperienceStepper: React.FC = () => {
 	const { activeStep } = useSteps({
-		index: 1,
+		index: 2,
 		count: steps.length,
 	})
 
@@ -25,7 +25,7 @@ const ExperienceStepper: React.FC = () => {
 			index={activeStep}
 			orientation='vertical'
 			// height='600px'
-			gap='10px'
+			gap='0px'
 			colorScheme='gray'
 			size='sm'
 			mt='20px'
@@ -35,7 +35,7 @@ const ExperienceStepper: React.FC = () => {
 					<StepIndicator bg='#fff'>
 						<StepStatus complete={<StepIcon />} />
 					</StepIndicator>
-					<Box flexShrink='0'>
+					<Box flexShrink='0' mb='10px'>
 						<StepTitle>
 							<Text color='#fff' fontWeight='bold' fontSize='20px'>
 								{step.title}
@@ -43,26 +43,8 @@ const ExperienceStepper: React.FC = () => {
 						</StepTitle>
 						<StepDescription>
 							<Text fontSize='16px' color='#fff' fontWeight='medium'>
-								{step.company}
+								<Link href={step.link}>{step.company}</Link>
 							</Text>
-						</StepDescription>
-						<StepDescription>
-							<Flex w='100%' overflowWrap='break-word'>
-								<Text
-									fontSize='16px'
-									color='#fff'
-									fontWeight='medium'
-									mt='5px'
-									h='auto'
-									// maxW='400px'
-									minW='200px'
-									w='fit-content' // Встановлюємо ширину контейнера на 100%
-									overflowWrap='break-word' // Встановлюємо параметр для перенесення тексту
-									whiteSpace='pre-line'
-								>
-									{step.whatIDo}
-								</Text>
-							</Flex>
 						</StepDescription>
 						<StepDescription>
 							<Text
