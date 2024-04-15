@@ -1,6 +1,7 @@
 import { Box, Flex, Heading, Image, Link, Text } from '@chakra-ui/react'
 import me from '../../img/me.jpeg'
 import ContactsModal from './Modules/ContactsModal'
+import cv from '../../assets/DenysHarkavenko_CV.pdf'
 
 const Header: React.FC = () => {
 	return (
@@ -31,7 +32,7 @@ const Header: React.FC = () => {
 						justify={['center', null, null, 'unset', 'unset']}
 					>
 						<Link
-							href='../src/data/DenysHarkavenko_CV.pdf'
+							href={cv}
 							download
 							textAlign='center'
 							p='8px 0'
